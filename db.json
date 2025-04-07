@@ -1,177 +1,108 @@
 {
-  "todo": [
-    {
-      "id": 1,
-      "title": "Belajar React",
-      "description": "Mempelajari dasar-dasar React JS termasuk komponen dan props.",
-      "createDate": "2025-04-01T10:00:00Z",
-      "updateDate": "2025-04-03T15:30:00Z",
-      "dateTask": "2025-04-01T10:00:00Z"
-    },
-    {
-      "id": 2,
-      "title": "Mengenal Tailwind CSS",
-      "description": "Menggunakan utility-first framework untuk styling lebih cepat.",
-      "createDate": "2025-04-02T09:00:00Z",
-      "updateDate": "2025-04-02T12:00:00Z",
-      "dateTask": "2025-04-02T09:00:00Z"
-    },
-    {
-      "id": 3,
-      "title": "Setup Backend dengan JSON Server",
-      "description": "Membuat fake REST API untuk testing frontend dengan cepat.",
-      "createDate": "2025-04-04T14:00:00Z",
-      "updateDate": "2025-04-05T08:45:00Z",
-      "dateTask": "2025-04-04T14:00:00Z"
-    },
-    {
-      "id": 4,
-      "title": "Integrasi API ke Frontend",
-      "description": "Menghubungkan frontend dengan REST API menggunakan Axios.",
-      "createDate": "2025-04-05T10:00:00Z",
-      "updateDate": "2025-04-06T11:20:00Z",
-      "dateTask": "2025-04-05T10:00:00Z"
-    }
-  ],
-   "users": [
-    {
-      "id": "u1",
-      "username": "you",
-      "createdDate": "2025-04-01T09:00:00Z",
-      "updatedDate": "2025-04-01T10:00:00Z"
-    },
-    {
-      "id": "u2",
-      "username": "alice",
-      "createdDate": "2025-04-01T09:05:00Z",
-      "updatedDate": "2025-04-01T10:10:00Z"
-    },
-    {
-      "id": "u3",
-      "username": "bob",
-      "createdDate": "2025-04-01T09:10:00Z",
-      "updatedDate": "2025-04-01T10:20:00Z"
-    }
-  ],
-  "groupMessages": [
-    {
-      "id": "g1",
-      "name": "React Team",
-      "members": ["u1", "u2", "u3"],
-      "createdDate": "2025-04-02T08:00:00Z",
-      "updatedDate": "2025-04-02T08:30:00Z"
-    }
-  ],
-  "messages": [
-    {
-      "id": "m1",
-      "text": "Hai, udah coba fitur baru React?",
-      "isRead": false,
-      "senderId": "u2",
-      "receiverId": "u1",
-      "groupId": null,
-      "createdDate": "2025-04-03T10:00:00Z",
-      "updatedDate": "2025-04-03T10:00:00Z"
-    },
-    {
-      "id": "m2",
-      "text": "Belum nih, kamu gimana?",
-      "isRead": false,
-      "senderId": "u1",
-      "receiverId": "u2",
-      "groupId": null,
-      "createdDate": "2025-04-03T10:02:00Z",
-      "updatedDate": "2025-04-03T10:02:00Z"
-    },
-    {
-      "id": "m3",
-      "text": "Gue udah coba, keren banget!",
-      "isRead": true,
-      "senderId": "u3",
-      "receiverId": "u1",
-      "groupId": null,
-      "createdDate": "2025-04-03T11:00:00Z",
-      "updatedDate": "2025-04-03T11:00:00Z"
-    },
-    {
-      "id": "m4",
-      "text": "Jangan lupa meeting besok ya!",
-      "isRead": false,
-      "senderId": "u1",
-      "receiverId": null,
-      "groupId": "g1",
-      "createdDate": "2025-04-04T09:00:00Z",
-      "updatedDate": "2025-04-04T09:00:00Z"
-    }
-  ] "users": [
-    {
-      "id": "u1",
-      "username": "you",
-      "createdDate": "2025-04-01T09:00:00Z",
-      "updatedDate": "2025-04-01T10:00:00Z"
-    },
-    {
-      "id": "u2",
-      "username": "alice",
-      "createdDate": "2025-04-01T09:05:00Z",
-      "updatedDate": "2025-04-01T10:10:00Z"
-    },
-    {
-      "id": "u3",
-      "username": "bob",
-      "createdDate": "2025-04-01T09:10:00Z",
-      "updatedDate": "2025-04-01T10:20:00Z"
-    }
-  ],
-  "groupMessages": [
-    {
-      "id": "g1",
-      "name": "React Team",
-      "members": ["u1", "u2", "u3"],
-      "createdDate": "2025-04-02T08:00:00Z",
-      "updatedDate": "2025-04-02T08:30:00Z"
-    }
-  ],
-  "messages": [
-    {
-      "id": "m1",
-      "text": "Hai, udah coba fitur baru React?",
-      "isRead": false,
-      "senderId": "u2",
-      "receiverId": "u1",
-      "groupId": null,
-      "createdDate": "2025-04-03T10:00:00Z",
-      "updatedDate": "2025-04-03T10:00:00Z"
-    },
-    {
-      "id": "m2",
-      "text": "Belum nih, kamu gimana?",
-      "isRead": false,
-      "senderId": "u1",
-      "receiverId": "u2",
-      "groupId": null,
-      "createdDate": "2025-04-03T10:02:00Z",
-      "updatedDate": "2025-04-03T10:02:00Z"
-    },
-    {
-      "id": "m3",
-      "text": "Gue udah coba, keren banget!",
-      "isRead": true,
-      "senderId": "u3",
-      "receiverId": "u1",
-      "groupId": null,
-      "createdDate": "2025-04-03T11:00:00Z",
-      "updatedDate": "2025-04-03T11:00:00Z"
-    },
-    {
-      "id": "m4",
-      "text": "Jangan lupa meeting besok ya!",
-      "isRead": false,
-      "senderId": "u1",
-      "receiverId": null,
-      "groupId": "g1",
-      "createdDate": "2025-04-04T09:00:00Z",
-      "updatedDate": "2025-04-04T09:00:00Z"
-    }
-  ]
-}
+    "todo": [
+      {
+        "id": 1,
+        "title": "Belajar React",
+        "description": "Mempelajari dasar-dasar React JS termasuk komponen dan props.",
+        "createDate": "2025-04-01T10:00:00Z",
+        "updateDate": "2025-04-03T15:30:00Z",
+        "dateTask": "2025-04-01T10:00:00Z"
+      },
+      {
+        "id": 2,
+        "title": "Mengenal Tailwind CSS",
+        "description": "Menggunakan utility-first framework untuk styling lebih cepat.",
+        "createDate": "2025-04-02T09:00:00Z",
+        "updateDate": "2025-04-02T12:00:00Z",
+        "dateTask": "2025-04-02T09:00:00Z"
+      },
+      {
+        "id": 3,
+        "title": "Setup Backend dengan JSON Server",
+        "description": "Membuat fake REST API untuk testing frontend dengan cepat.",
+        "createDate": "2025-04-04T14:00:00Z",
+        "updateDate": "2025-04-05T08:45:00Z",
+        "dateTask": "2025-04-04T14:00:00Z"
+      },
+      {
+        "id": 4,
+        "title": "Integrasi API ke Frontend",
+        "description": "Menghubungkan frontend dengan REST API menggunakan Axios.",
+        "createDate": "2025-04-05T10:00:00Z",
+        "updateDate": "2025-04-06T11:20:00Z",
+        "dateTask": "2025-04-05T10:00:00Z"
+      }
+    ],
+     "users": [
+      {
+        "id": "u1",
+        "username": "you",
+        "createdDate": "2025-04-01T09:00:00Z",
+        "updatedDate": "2025-04-01T10:00:00Z"
+      },
+      {
+        "id": "u2",
+        "username": "alice",
+        "createdDate": "2025-04-01T09:05:00Z",
+        "updatedDate": "2025-04-01T10:10:00Z"
+      },
+      {
+        "id": "u3",
+        "username": "bob",
+        "createdDate": "2025-04-01T09:10:00Z",
+        "updatedDate": "2025-04-01T10:20:00Z"
+      }
+    ],
+    "groupMessages": [
+      {
+        "id": "g1",
+        "name": "React Team",
+        "members": ["u1", "u2", "u3"],
+        "createdDate": "2025-04-02T08:00:00Z",
+        "updatedDate": "2025-04-02T08:30:00Z"
+      }
+    ],
+    "messages": [
+      {
+        "id": "m1",
+        "text": "Hai, udah coba fitur baru React?",
+        "isRead": false,
+        "senderId": "u2",
+        "receiverId": "u1",
+        "groupId": null,
+        "createdDate": "2025-04-03T10:00:00Z",
+        "updatedDate": "2025-04-03T10:00:00Z"
+      },
+      {
+        "id": "m2",
+        "text": "Belum nih, kamu gimana?",
+        "isRead": false,
+        "senderId": "u1",
+        "receiverId": "u2",
+        "groupId": null,
+        "createdDate": "2025-04-03T10:02:00Z",
+        "updatedDate": "2025-04-03T10:02:00Z"
+      },
+      {
+        "id": "m3",
+        "text": "Gue udah coba, keren banget!",
+        "isRead": true,
+        "senderId": "u3",
+        "receiverId": "u1",
+        "groupId": null,
+        "createdDate": "2025-04-03T11:00:00Z",
+        "updatedDate": "2025-04-03T11:00:00Z"
+      },
+      {
+        "id": "m4",
+        "text": "Jangan lupa meeting besok ya!",
+        "isRead": false,
+        "senderId": "u1",
+        "receiverId": null,
+        "groupId": "g1",
+        "createdDate": "2025-04-04T09:00:00Z",
+        "updatedDate": "2025-04-04T09:00:00Z"
+      }
+    ] 
+  }
+  
