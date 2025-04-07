@@ -1,33 +1,36 @@
 {
-  "todo":  [
+  "todo": [
     {
       "id": 1,
       "title": "Belajar React",
       "description": "Mempelajari dasar-dasar React JS termasuk komponen dan props.",
       "createDate": "2025-04-01T10:00:00Z",
-      "updateDate": "2025-04-03T15:30:00Z"
+      "updateDate": "2025-04-03T15:30:00Z",
+      "dateTask": "2025-04-01T10:00:00Z"
     },
     {
       "id": 2,
       "title": "Mengenal Tailwind CSS",
       "description": "Menggunakan utility-first framework untuk styling lebih cepat.",
       "createDate": "2025-04-02T09:00:00Z",
-      "updateDate": "2025-04-02T12:00:00Z"
+      "updateDate": "2025-04-02T12:00:00Z",
+      "dateTask": "2025-04-02T09:00:00Z"
     },
     {
       "id": 3,
       "title": "Setup Backend dengan JSON Server",
       "description": "Membuat fake REST API untuk testing frontend dengan cepat.",
       "createDate": "2025-04-04T14:00:00Z",
-      "updateDate": "2025-04-05T08:45:00Z"
+      "updateDate": "2025-04-05T08:45:00Z",
+      "dateTask": "2025-04-04T14:00:00Z"
     },
     {
       "id": 4,
       "title": "Integrasi API ke Frontend",
       "description": "Menghubungkan frontend dengan REST API menggunakan Axios.",
       "createDate": "2025-04-05T10:00:00Z",
-      "updateDate": "2025-04-06T11:20:00Z"
+      "updateDate": "2025-04-06T11:20:00Z",
+      "dateTask": "2025-04-05T10:00:00Z"
     }
   ]
-
 }
