@@ -231,8 +231,40 @@
     "createDate": "2025-04-04T12:02:00Z",
     "updateDate": "2025-04-04T12:02:00Z",
     "replyId": "m24"
-  }
+  },
+{
+  "id": "m26",
+  "text": "BTW, dokumentasi API-nya udah aku update ya.",
+  "isRead": false,
+  "senderId": "u3",
+  "receiverId": "u1",
+  "groupId": null,
+  "createDate": "2025-04-04T12:10:00Z",
+  "updateDate": "2025-04-04T12:10:00Z",
+  "replyId": null
+},
+{
+  "id": "m27",
+  "text": "Ada waktu call bentar sore nggak?",
+  "isRead": false,
+  "senderId": "u3",
+  "receiverId": "u2",
+  "groupId": null,
+  "createDate": "2025-04-04T12:15:00Z",
+  "updateDate": "2025-04-04T12:15:00Z",
+  "replyId": null
+},
+{
+  "id": "m28",
+  "text": "Besok stand-up jam berapa ya? Aku lupa.",
+  "isRead": false,
+  "senderId": "u3",
+  "receiverId": "u1",
+  "groupId": null,
+  "createDate": "2025-04-04T12:18:00Z",
+  "updateDate": "2025-04-04T12:18:00Z",
+  "replyId": null
+}
 ]
-
   }
   
