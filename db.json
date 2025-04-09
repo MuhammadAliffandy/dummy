@@ -97,8 +97,9 @@
       "receiverId": "u1",
       "groupId": null,
       "createDate": "2025-04-03T11:00:00Z",
-      "updateDate": "2025-04-03T11:00:00Z"
-      // Tidak ada replyId
+      "updateDate": "2025-04-03T11:00:00Z",
+        "replyId": null
+      
     },
     {
       "id": "m4",
@@ -111,7 +112,6 @@
       "updateDate": "2025-04-04T09:00:00Z",
       "replyId": "m2"
     }
-  ],
-
+  ]
   }
   
