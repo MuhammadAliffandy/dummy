@@ -67,51 +67,172 @@
       }
     ],
   "messages": [
-    {
-      "id": "m1",
-      "text": "Hai, udah coba fitur baru React?",
-      "isRead": false,
-      "senderId": "u2",
-      "receiverId": "u1",
-      "groupId": null,
-      "createDate": "2025-04-03T10:00:00Z",
-      "updateDate": "2025-04-03T10:00:00Z",
-      "replyId": null
-    },
-    {
-      "id": "m2",
-      "text": "Belum nih, kamu gimana?",
-      "isRead": false,
-      "senderId": "u1",
-      "receiverId": "u2",
-      "groupId": null,
-      "createDate": "2025-04-03T10:02:00Z",
-      "updateDate": "2025-04-03T10:02:00Z",
-      "replyId": "m1"
-    },
-    {
-      "id": "m3",
-      "text": "Gue udah coba, keren banget!",
-      "isRead": true,
-      "senderId": "u3",
-      "receiverId": "u1",
-      "groupId": null,
-      "createDate": "2025-04-03T11:00:00Z",
-      "updateDate": "2025-04-03T11:00:00Z",
-        "replyId": null
-      
-    },
-    {
-      "id": "m4",
-      "text": "Jangan lupa meeting besok ya!",
-      "isRead": false,
-      "senderId": "u1",
-      "receiverId": null,
-      "groupId": "g1",
-      "createDate": "2025-04-04T09:00:00Z",
-      "updateDate": "2025-04-04T09:00:00Z",
-      "replyId": "m2"
-    }
-  ]
+  {
+    "id": "m11",
+    "text": "Ada yang punya referensi library charting buat React?",
+    "isRead": false,
+    "senderId": "u3",
+    "receiverId": null,
+    "groupId": "g1",
+    "createDate": "2025-04-04T10:00:00Z",
+    "updateDate": "2025-04-04T10:00:00Z",
+    "replyId": null
+  },
+  {
+    "id": "m12",
+    "text": "Coba pakai Recharts, lumayan enak kok.",
+    "isRead": false,
+    "senderId": "u1",
+    "receiverId": null,
+    "groupId": "g1",
+    "createDate": "2025-04-04T10:05:00Z",
+    "updateDate": "2025-04-04T10:05:00Z",
+    "replyId": "m11"
+  },
+  {
+    "id": "m13",
+    "text": "Atau bisa juga pakai Chart.js kalau butuh visual lebih kompleks.",
+    "isRead": false,
+    "senderId": "u2",
+    "receiverId": null,
+    "groupId": "g1",
+    "createDate": "2025-04-04T10:10:00Z",
+    "updateDate": "2025-04-04T10:10:00Z",
+    "replyId": "m11"
+  },
+  {
+    "id": "m14",
+    "text": "Thanks ya, nanti aku coba explore!",
+    "isRead": false,
+    "senderId": "u3",
+    "receiverId": null,
+    "groupId": "g1",
+    "createDate": "2025-04-04T10:12:00Z",
+    "updateDate": "2025-04-04T10:12:00Z",
+    "replyId": "m13"
+  },
+  {
+    "id": "m15",
+    "text": "Progress modul login udah sampai mana?",
+    "isRead": false,
+    "senderId": "u1",
+    "receiverId": "u2",
+    "groupId": null,
+    "createDate": "2025-04-04T11:00:00Z",
+    "updateDate": "2025-04-04T11:00:00Z",
+    "replyId": null
+  },
+  {
+    "id": "m16",
+    "text": "Udah selesai tinggal testing aja.",
+    "isRead": false,
+    "senderId": "u2",
+    "receiverId": "u1",
+    "groupId": null,
+    "createDate": "2025-04-04T11:03:00Z",
+    "updateDate": "2025-04-04T11:03:00Z",
+    "replyId": "m15"
+  },
+  {
+    "id": "m17",
+    "text": "Keren, push ke GitHub nanti ya.",
+    "isRead": false,
+    "senderId": "u1",
+    "receiverId": "u2",
+    "groupId": null,
+    "createDate": "2025-04-04T11:05:00Z",
+    "updateDate": "2025-04-04T11:05:00Z",
+    "replyId": "m16"
+  },
+  {
+    "id": "m18",
+    "text": "Oke siap bos!",
+    "isRead": false,
+    "senderId": "u2",
+    "receiverId": "u1",
+    "groupId": null,
+    "createDate": "2025-04-04T11:07:00Z",
+    "updateDate": "2025-04-04T11:07:00Z",
+    "replyId": "m17"
+  },
+  {
+    "id": "m19",
+    "text": "Ada yang bisa bantu review PR aku?",
+    "isRead": false,
+    "senderId": "u3",
+    "receiverId": null,
+    "groupId": "g1",
+    "createDate": "2025-04-04T11:20:00Z",
+    "updateDate": "2025-04-04T11:20:00Z",
+    "replyId": null
+  },
+  {
+    "id": "m20",
+    "text": "Boleh, kirim link-nya ya",
+    "isRead": false,
+    "senderId": "u1",
+    "receiverId": null,
+    "groupId": "g1",
+    "createDate": "2025-04-04T11:22:00Z",
+    "updateDate": "2025-04-04T11:22:00Z",
+    "replyId": "m19"
+  },
+  {
+    "id": "m21",
+    "text": "Aku juga bisa bantu review nanti sore",
+    "isRead": false,
+    "senderId": "u2",
+    "receiverId": null,
+    "groupId": "g1",
+    "createDate": "2025-04-04T11:25:00Z",
+    "updateDate": "2025-04-04T11:25:00Z",
+    "replyId": "m19"
+  },
+  {
+    "id": "m22",
+    "text": "Udah aku push modul login dan dashboard ya.",
+    "isRead": false,
+    "senderId": "u2",
+    "receiverId": "u1",
+    "groupId": null,
+    "createDate": "2025-04-04T11:40:00Z",
+    "updateDate": "2025-04-04T11:40:00Z",
+    "replyId": "m17"
+  },
+  {
+    "id": "m23",
+    "text": "Nice! Nanti tinggal aku merge.",
+    "isRead": false,
+    "senderId": "u1",
+    "receiverId": "u2",
+    "groupId": null,
+    "createDate": "2025-04-04T11:45:00Z",
+    "updateDate": "2025-04-04T11:45:00Z",
+    "replyId": "m22"
+  },
+  {
+    "id": "m24",
+    "text": "Lunch dulu yuk, udah jam 12 😅",
+    "isRead": false,
+    "senderId": "u3",
+    "receiverId": null,
+    "groupId": "g1",
+    "createDate": "2025-04-04T12:00:00Z",
+    "updateDate": "2025-04-04T12:00:00Z",
+    "replyId": null
+  },
+  {
+    "id": "m25",
+    "text": "Wah iya, lapar juga nih. Let's go!",
+    "isRead": false,
+    "senderId": "u2",
+    "receiverId": null,
+    "groupId": "g1",
+    "createDate": "2025-04-04T12:02:00Z",
+    "updateDate": "2025-04-04T12:02:00Z",
+    "replyId": "m24"
+  }
+]
+
   }
   
